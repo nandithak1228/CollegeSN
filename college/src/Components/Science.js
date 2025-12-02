@@ -17,7 +17,7 @@ const Science = () => {
           alignItems: "center",
           justifyContent: "center",
           textAlign: "center",
-          color: "#12034fff",
+          color: "#d8e7f5ff",
           px: 2,
         }}
       >
@@ -25,7 +25,7 @@ const Science = () => {
           variant="h3"
           sx={{
             fontWeight: "bold",
-            textShadow: "3px 3px 10px rgba(0,0,0,0.7)",
+            textShadow: "3px 3px 10px rgba(5, 23, 34, 0.7)",
           }}
         >
           Science Stream (PCMB / PCMC / PCME)

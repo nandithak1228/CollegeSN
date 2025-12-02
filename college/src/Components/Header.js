@@ -14,7 +14,7 @@ const Header = () => {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: "transparent",
+        backgroundColor: "#96dae9ff",
         boxShadow: "none",
         padding: "10px 0",
       }}
@@ -36,7 +36,7 @@ const Header = () => {
 
           <Typography
             variant="h5"
-            sx={{ color: "#2125ff", fontWeight: 700, fontFamily: "Lora" }}
+            sx={{ color: "#040755ff", fontWeight: 700, fontFamily: "Lora" }}
           >
             Bangalore PU Colleges
           </Typography>
@@ -51,15 +51,15 @@ const Header = () => {
           }}
         >
 
-          <Button component={RouterLink} to="/" sx={{ color: "#2125ff", fontWeight: 500 }}>
+          <Button component={RouterLink} to="/" sx={{ color: "#040755ff", fontWeight: 600 }}>
             Home
           </Button>
 
-          <Button component={RouterLink} to="/about" sx={{ color: "#2125ff", fontWeight: 500 }}>
+          <Button component={RouterLink} to="/about" sx={{ color: "#040755ff", fontWeight: 600 }}>
             About
           </Button>
           <Button
-            sx={{ color: "#2125ff", fontWeight: 500 }}
+            sx={{ color: "#040755ff", fontWeight: 600 }}
             onClick={handleMenuOpen}
           >
             Courses ▼
@@ -71,11 +71,11 @@ const Header = () => {
             <MenuItem component={RouterLink} to="/arts" onClick={handleMenuClose}>Arts</MenuItem>
           </Menu>
 
-          <Button component={RouterLink} to="/admission" sx={{ color: "#2125ff", fontWeight: 500 }}>
+          <Button component={RouterLink} to="/admission" sx={{ color: "#040755ff", fontWeight: 600 }}>
             Admissions
           </Button>
 
-          <Button component={RouterLink} to="/contact" sx={{ color: "#2125ff", fontWeight: 500 }}>
+          <Button component={RouterLink} to="/contact" sx={{ color: "#040755ff", fontWeight: 600 }}>
             Contact
           </Button>
 

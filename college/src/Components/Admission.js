@@ -5,8 +5,6 @@ import admissionImg from "../Assets/admission.jpg";
 const Admission = () => {
   return (
     <Box sx={{ width: "100%" }}>
-      
-      {/* Banner Section */}
       <Box
         sx={{
           height: "80vh",
@@ -42,7 +40,6 @@ const Admission = () => {
         </Typography>
       </Box>
 
-      {/* Centered Content */}
       <Box
         sx={{
           display: "flex",
@@ -148,8 +145,30 @@ const Admission = () => {
 
   </Grid>
 </Box>
-
-
+<Typography
+  variant="body1"
+  sx={{
+    mt: 4,
+    fontWeight: 500,
+    textAlign: "center",
+  }}
+>
+  To know more {" "}
+  <a
+    href="https://www.getmycollege.com/campus/favicon.ico"
+    style={{
+      color: "blue",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+    onMouseOver={(e) => (e.target.style.textDecoration = "underline")}
+    onMouseOut={(e) => (e.target.style.textDecoration = "none")}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    click on this
+  </a>.
+</Typography>
       </Paper>
       </Box>
     </Box>

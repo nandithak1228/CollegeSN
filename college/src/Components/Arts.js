@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Paper, Grid } from "@mui/material";
-import artsImg from "../Assets/arts.png"; 
+import artsImg from "../Assets/arts.jpg"; 
 
 const Arts = () => {
   return (
@@ -16,7 +16,7 @@ const Arts = () => {
           alignItems: "center",
           justifyContent: "center",
           textAlign: "center",
-          color: "#fff",
+          color: "#190404ff",
           px: 2,
         }}
       >
@@ -24,7 +24,8 @@ const Arts = () => {
           variant="h3"
           sx={{
             fontWeight: "bold",
-            textShadow: "3px 3px 10px rgba(0,0,0,0.7)",
+            zIndex:2,
+            textShadow: "3px 3px 10px rgba(26, 26, 2, 0.7)",
           }}
         >
           Arts Stream (HEPS / HELG / EPSP)
@@ -34,7 +35,7 @@ const Arts = () => {
     
       <Box sx={{ maxWidth: "1200px", mx: "auto", mt: 5, px: 3 }}>
         <Paper elevation={3} sx={{ p: 4, borderRadius: 3 }}>
-          <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2, color: "#650456ff" }}>
+          <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2, color: "#653904ff" }}>
             Why Choose Arts Stream?
           </Typography>
 
@@ -45,7 +46,7 @@ const Arts = () => {
       </Box>
 
       <Box sx={{ maxWidth: "1200px", mx: "auto", mt: 6, px: 3 }}>
-        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3, color: "#650456ff" }}>
+        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3, color: "#653904ff" }}>
           Arts Course Combinations
         </Typography>
 
@@ -75,7 +76,7 @@ const Arts = () => {
                   "&:hover": { transform: "scale(1.05)", boxShadow: 6 },
                 }}
               >
-                <Typography variant="h5" sx={{ fontWeight: "bold", color: "#8f0c8bff", mb: 1 }}>
+                <Typography variant="h5" sx={{ fontWeight: "bold", color: "#8f5b0cff", mb: 1 }}>
                   {course.title}
                 </Typography>
 
@@ -91,7 +92,7 @@ const Arts = () => {
       </Box>
 
       <Box sx={{ maxWidth: "1200px", mx: "auto", mt: 6, px: 3 }}>
-        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3, color: "#650460ff" }}>
+        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3, color: "#653904ff" }}>
           Key Benefits of Choosing Arts
         </Typography>
 
@@ -109,7 +110,7 @@ const Arts = () => {
                 sx={{
                   p: 3,
                   borderRadius: 3,
-                  backgroundColor: "#ffe9fdff",
+                  backgroundColor: "#fffae9ff",
                   minHeight: "120px",
                   display: "flex",
                   alignItems: "center",
@@ -126,7 +127,7 @@ const Arts = () => {
 
  
       <Box sx={{ maxWidth: "1200px", mx: "auto", mt: 6, px: 3, mb: 8 }}>
-        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3, color: "#650458ff" }}>
+        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3, color: "#653904ff" }}>
           Career Opportunities After 
         </Typography>
 

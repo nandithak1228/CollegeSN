@@ -8,11 +8,16 @@ import Admission from "./Components/Admission";
 import Science from "./Components/Science";
 import Commerce from "./Components/Commerce";
 import Arts from "./Components/Arts";
+import Contact from "./Components/Contact";
+import Home from "./Components/Home";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
     <Router>
       <Header />
+      
       <Routes>
         <Route path="/about" element={<AboutUs />} />
         <Route path="/courses" element={<Courses />} />
@@ -20,8 +25,12 @@ function App() {
         <Route path="/commerce" element={<Commerce />} />
         <Route path="/arts" element={<Arts />} />
         <Route path="/admission" element={<Admission />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} /> 
       </Routes>
+      <Footer/>
     </Router>
+   
   );
 }
 
